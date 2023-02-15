@@ -1,19 +1,19 @@
 
 
 INSERT INTO drones (id, name, brand, model, additional_info)
-VALUES (1, 'Drone 1', 'Yamaha', 'DT 50cc', 'Good ol Dt');
+VALUES (1, 'Nunu', 'Yamaha', 'DT 50cc', 'Good ol Dt');
 
 INSERT INTO drones (id, name, brand, model, additional_info)
-VALUES (2, 'Drone 2', 'Bugatti', 'Veyron', 'Kallis');
+VALUES (2, 'Lee sin', 'Bugatti', 'Veyron', 'Kallis');
 
 INSERT INTO drones (id, name, brand, model, additional_info)
-VALUES (3, 'Drone 3', 'Lamborghini', 'Gallardo', 'Ihan siisti');
+VALUES (3, 'Genji', 'Lamborghini', 'Gallardo', 'Ihan siisti');
 
 INSERT INTO drones (id, name, brand, model, additional_info)
-VALUES (4, 'Drone 4', 'Porche', '911', 'Perus hieno');
+VALUES (4, 'Spamzo', 'Porche', '911', 'Perus hieno');
 
 INSERT INTO drones (id, name, brand, model, additional_info)
-VALUES (5, 'Drone 5', 'McLaren', 'P1', 'Lemppari');
+VALUES (5, 'Mcree', 'McLaren', 'P1', 'Lemppari');
 
 
 
@@ -36,7 +36,6 @@ VALUES (5, 'Urho kekkonen', 'ijkl', 'ghi789', '2022-05-01 12:00:00', 2);
 
 
 
-
 INSERT INTO images (id, name, analysis_description, lat, lon, time, drone_id, user_id)
 VALUES (1, 'Kuva 1', 'Putkivauriot', 37.3352, -121.8811, '2022-01-01 12:00:00', 5, 1);
 
@@ -51,6 +50,9 @@ VALUES (4, 'Kuva 4', 'Maisemakuva 2', 33.9416, -118.4085, '2022-04-01 12:00:00',
 
 INSERT INTO images (id, name, analysis_description, lat, lon, time, drone_id, user_id)
 VALUES (5, 'Kuva 5', 'Maisemakuva 3', 33.9416, -118.4085, '2022-05-01 12:00:00', 2, 5);
+
+INSERT INTO images (id, name, analysis_description, lat, lon, time, drone_id, user_id)
+VALUES (6, 'Kuva 6', 'Harjoitus', 23.9416, -99.4085, '2022-05-02 12:00:00', 2, 5);
 
 
 
@@ -69,3 +71,6 @@ VALUES (4, '1428 Elm street, Springwood, Ohio', 'ghi789', 2);
 
 INSERT INTO send_addresses (id, address, token, images_id)
 VALUES (5, 'Visulahdentie 1, 50180 Mikkeli', 'ghi789', 5);
+
+INSERT INTO send_addresses (id, address, token, images_id)
+VALUES (6, 'Kuopion tori, vaasalandia', 'ghi789', 6);
